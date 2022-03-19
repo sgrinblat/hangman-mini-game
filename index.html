@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link href="http://fonts.cdnfonts.com/css/sf-pixelate" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" >
+    <script type="text/javascript" src="words.js" defer></script>
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+    <h1>Hangman Pixel</h1>
+    <div>
+        <canvas id="canvas"></canvas>
+        <div id="usedLetters"></div>
+    </div>
+    <div id="usedLetters"></div>
+    <div id="wordContainer"></div>
+    <div id="winner"></div>
+    <button id="startButton">START</button>
+    <button id="yourChoice" hidden></button>
+    <section id="categorys">
+        <button type="submit" id="colorsButton" class="categoryButtons">COLORS</button> <br>
+        <button type="submit" id="animalsButton"class="categoryButtons">ANIMALS</button> <br>
+        <button type="submit" id="foodButton"class="categoryButtons">FOOD</button> <br>
+        <button type="submit" id="jobstButton"class="categoryButtons">JOBS</button> <br>
+        <button type="submit" id="bodypartsButton"class="categoryButtons">BODYPARTS</button> <br>
+        <button type="submit" id="clothesButton"class="categoryButtons">CLOTHES</button> <br>
+        <button type="submit" id="objectsButton"class="categoryButtons">OBJECTS</button> <br>
+        <button type="submit" id="subjectsButton"class="categoryButtons">SUBJECTS</button> <br>
+    </section>
+
+    <footer>Made by <a href="https://www.linkedin.com/in/santiago-grinblat/">Santiago Grinblat</a></footer>
+  
+</body>
+</html>
