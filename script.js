@@ -49,6 +49,7 @@ const wrongLetter = () => {
 const endGameLoose = () => {
     document.removeEventListener('keydown', letterEvent);
     yourChoice.style.display = "none";
+    mobile.style.display = 'none';
     startButton.innerHTML = "PLAY AGAIN";
     startButton.style.display = 'block';
     categorys.style.display = "none";
@@ -61,6 +62,7 @@ const endGameLoose = () => {
 const endGameWin = () => {
     document.removeEventListener('keydown', letterEvent);
     yourChoice.style.display = "none";
+    mobile.style.display = 'none';
     startButton.innerHTML = "PLAY AGAIN";
     startButton.style.display = 'block';
     categorys.style.display = "none";
@@ -200,6 +202,7 @@ const selectCategory = () => {
 const startGame = () => {
     drawWord();
     winner.innerHTML = "";
+    mobile.style.display = 'block';
     categorys.style.display = "none";
     document.addEventListener('keydown', letterEvent);
 };

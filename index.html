@@ -17,10 +17,15 @@
         <div id="usedLetters"></div>
     </div>
     <div id="usedLetters"></div>
-    <div id="wordContainer"></div>
+    <div id="wordContainer" class="noselect"></div>
     <div id="winner"></div>
     <button id="startButton">START</button>
     <button id="yourChoice" hidden></button>
+    <div>
+        <div class="show-on-mobile hide-on-desktop">
+          <input type="text" hidden id="mobile" name="yourInput" oninput="this.value = this.value.toUpperCase()" onfocus="this.value=''" placeholder="CLICK HERE FOR WRITING">
+        </div>
+     </div>
     <section id="categorys">
         <button type="submit" id="colorsButton" class="categoryButtons">COLORS</button> <br>
         <button type="submit" id="animalsButton"class="categoryButtons">ANIMALS</button> <br>
