@@ -19,7 +19,7 @@ This is a small game that I have made in Javascript Native. I hope you like it!
 
 ### Links
 
-- [Live Site URL]
+- [Live Site URL](https://sgrinblat.github.io/hangman-mini-game/)
 
 ## My process
 
